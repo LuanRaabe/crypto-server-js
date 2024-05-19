@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "elliptic": "^6.5.5",
+    "express": "^4.19.2",
+    "hex-to-binary": "^1.0.1",
+    "pubnub": "^8.1.0",
+    "redis": "^4.6.14",
+    "request": "^2.88.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
